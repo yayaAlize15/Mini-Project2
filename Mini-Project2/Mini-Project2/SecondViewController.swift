@@ -19,15 +19,19 @@ class SecondViewController: UIViewController {
     
 
     @IBAction func ChoiceA2(_ sender: UIButton) {
+        Answer2.text = "Ok your gettin closer!!"
     }
     
     @IBAction func ChoiceB2(_ sender: UIButton) {
+        Answer2.text = "That's way off dude!"
     }
     
     @IBAction func ChoiceC2(_ sender: UIButton) {
+        Answer2.text = "Ding...Ding...Ding you get a gold star!!"
     }
     
     @IBAction func ChoiceD2(_ sender: UIButton) {
+        Answer2.text = "Wrong!.. Wrong!...Wrong!"
     }
     
     

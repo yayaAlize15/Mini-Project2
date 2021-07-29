@@ -18,15 +18,19 @@ class ThirdViewController: UIViewController {
     }
     
     @IBAction func ChoiceA3(_ sender: UIButton) {
+        Answer3.text = "Ding...Ding...Ding you get a gold star!!"
     }
     
     @IBAction func ChoiceB3(_ sender: UIButton) {
+        Answer3.text = "Wrong!.. Wrong!...Wrong!"
     }
     
     @IBAction func ChoiceC3(_ sender: UIButton) {
+        Answer3.text = "Ok your gettin closer!!"
     }
     
     @IBAction func ChoiceD3(_ sender: UIButton) {
+        Answer3.text = "That's way off dude!"
     }
     
     /*
