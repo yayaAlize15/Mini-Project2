@@ -9,6 +9,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var Answer2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +18,19 @@ class SecondViewController: UIViewController {
     }
     
 
+    @IBAction func ChoiceA2(_ sender: UIButton) {
+    }
+    
+    @IBAction func ChoiceB2(_ sender: UIButton) {
+    }
+    
+    @IBAction func ChoiceC2(_ sender: UIButton) {
+    }
+    
+    @IBAction func ChoiceD2(_ sender: UIButton) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
